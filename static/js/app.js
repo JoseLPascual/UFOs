@@ -125,17 +125,17 @@ buildTable(tableData);
   // 2. Attach an event to listen for changes to each filter
 
 if(date) {
-  updateFilters = d3.selectAll("#filter-btn").on("click", handleClick);
+  d3.selectAll("#filter-btn").on("click", updateFilters());
 }
 else if(city) {
-  updateFilters = d3.selectAll("#filter-btn").on("click", handleClick);
+  d3.selectAll("#filter-btn").on("click", updateFilters());
 }
 else if(state) {
-  updateFilters = d3.selectAll("#filter-btn").on("click", handleClick);
+  d3.selectAll("#filter-btn").on("click", updateFilters());
 }
 else if(country) {
-  updateFilters = d3.selectAll("#filter-btn").on("click", handleClick);
+  d3.selectAll("#filter-btn").on("click", updateFilters());
 }
 else if(shape) {
-  updateFilters = d3.selectAll("#filter-btn").on("click", handleClick);
+  d3.selectAll("#filter-btn").on("click", updateFilters());
 }
