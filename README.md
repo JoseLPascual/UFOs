@@ -5,12 +5,15 @@ The purpose of this document is to describe how Dana's site works now that multi
 
 ## Resources
 - Data Sources: index.html, style.css, app.js, data.js, nasa.jpg
+
 - Software: Microsoft Visual Studio 1.57.1
 
 ## Results
 How one may use this updated website is as follows:
--There are five search options from which a user can choose.
--In addition to selecting a date (in m/dd/yyyy format,) a user can now select for city, state, country, and shape.
+
+- There are five search options from which a user can choose.
+
+- In addition to selecting a date (in m/dd/yyyy format,) a user can now select for city, state, country, and shape.
 
 On the lower-left of the screen is where the search bars are found.  The user needs to fill out at least one of five possible search options, namely being date (Enter Date), city (Enter a City), state (Enter a State), country (Enter a Country), and shape (Enter a Shape).  After doing so, the user then clicks on Filter Table to retrieve the desired results.
 
